@@ -14,6 +14,9 @@ Support Swift frameworks in native Titanium modules.
 ##### Note 1: 
 This is required since Swift currently does not have ABI-stability which is expected to be supported in future versions of Swift. Until then, you always need to use the Swift version that the framework was compiled with.
 
+##### Note 2:
+If you use Hyperloop, you can add this as a project level hook. To do so simply place the `ti.dynamiclib.js` file in `<your-project-root>/hooks`
+
 ### License
 Apache 2.0
 
